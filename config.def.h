@@ -6,8 +6,8 @@ static const char *fonts[] = {
 };
 static const char *prompt = NULL; /* -p option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
-	[SchemeNorm] = { "#f8f8f2", "#282a36" },
-	[SchemeSel] =  { "#f8f8f2", "#6272a4" },
+	[SchemeNorm] = { "#ffffff", "#000000" },
+	[SchemeSel] =  { "#000000", "#ffffff" },
 	[SchemeOut] =  { "#000000", "#00ffff" },
 };
 
